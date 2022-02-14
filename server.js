@@ -46,12 +46,3 @@ app.post("/imageurl", (req, res) => { image.handleApiCall(req, res) });
 app.listen(process.env.PORT || 3000, () => {
   console.log(`app is running on port ${process.env.PORT}`);
 });
-
-/*
-  routing
-  / ==> res = this is working
-  /signin ==> post = success/fail
-  /register ==> post = user
-  /profile/:id ==> get = user
-  /image ==> put = user
-*/
